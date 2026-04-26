@@ -130,8 +130,7 @@ npm run dev
 
 ## 📸 Demo
 
-🔗 Live Demo: *[Add your Vercel link here](https://pharma-trace-teal.vercel.app/)*
-
+🔗 Live Demo: *[Live Prototype](https://pharma-trace-teal.vercel.app/)*
 🎥 Demo Video: *Add your YouTube/Drive link here*
 
 ---
