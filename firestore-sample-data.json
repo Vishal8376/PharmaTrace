@@ -1,0 +1,42 @@
+{
+  "_comment": "Sample data to insert into Firestore 'shipments' collection",
+  "_instructions": "In Firebase Console → Firestore → Create Collection 'shipments' → Add each document below using Auto ID",
+  "shipments": [
+    {
+      "id": "SHP-001",
+      "location": "Mumbai Cold Warehouse",
+      "temperature": 6.2,
+      "history": [5.8, 6.1, 6.2, 6.0, 6.2]
+    },
+    {
+      "id": "SHP-002",
+      "location": "Delhi Distribution Hub",
+      "temperature": 9.1,
+      "history": [7.8, 8.2, 8.9, 9.0, 9.1]
+    },
+    {
+      "id": "SHP-003",
+      "location": "Chennai Port Facility",
+      "temperature": 11.4,
+      "history": [8.5, 9.2, 10.1, 10.8, 11.4]
+    },
+    {
+      "id": "SHP-004",
+      "location": "Bengaluru BioPharma Hub",
+      "temperature": 4.8,
+      "history": [4.5, 4.6, 4.8, 4.7, 4.8]
+    },
+    {
+      "id": "SHP-005",
+      "location": "Hyderabad Vaccine Center",
+      "temperature": 7.5,
+      "history": [7.0, 7.1, 7.3, 7.4, 7.5]
+    },
+    {
+      "id": "SHP-006",
+      "location": "Kolkata Transit Hub",
+      "temperature": 10.8,
+      "history": [9.1, 9.6, 10.0, 10.4, 10.8]
+    }
+  ]
+}

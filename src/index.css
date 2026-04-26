@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #060d1a;
+  color: #e0eaf5;
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b1629;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a2d4a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00d4ff44;
+}
+
+/* Glowing border animation */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 8px #ff3d3d55; }
+  50% { box-shadow: 0 0 20px #ff3d3d99; }
+}
+
+.critical-glow {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* Chart tooltip */
+.recharts-tooltip-wrapper {
+  font-family: 'IBM Plex Mono', monospace !important;
+}
