@@ -13,7 +13,7 @@ import { Brain, Loader2, AlertCircle, TrendingUp, Zap, ChevronDown, ChevronUp } 
 const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY 
 
 // Gemini API endpoint
-const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${GEMINI_API_KEY}`
+const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`
 
 // ─── AIInsights ───────────────────────────────────────────────────────────────
 // Sends shipment temperature history to the Gemini API and displays
